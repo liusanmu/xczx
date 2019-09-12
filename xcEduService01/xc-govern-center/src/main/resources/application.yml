@@ -16,3 +16,5 @@ eureka:
     eviction-interval-timer-in-ms: 60000 #服务注册表清理间隔（单位毫秒，默认是60*1000）
   instance:
     hostname: ${EUREKA_DOMAIN:eureka01}
+
+

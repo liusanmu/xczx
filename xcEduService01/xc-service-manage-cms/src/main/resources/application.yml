@@ -7,12 +7,12 @@ spring:
     mongodb:
       uri:  mongodb://47.102.41.128:27017
       database: xc_cms
-  rabbitmq:
-    host: 47.102.41.128
-    port: 5672
-    username: guest
-    password: guest
-    virtualHost: /
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    username: guest
+#    password: guest
+#    virtualHost: /
   freemarker:
     cache: false  #关闭模板缓存，方便测试
     settings:

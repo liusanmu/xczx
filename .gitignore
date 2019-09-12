@@ -18,8 +18,7 @@
 *.zip
 *.tar.gz
 *.rar
-*.iml
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+
 hs_err_pid*
 xcEduService01/xc-framework-parent/target/
 xcEduService01/xc-framework-utils/target/
@@ -32,7 +31,15 @@ xcEduService01/xc-service-manage-cms-client/target/
 xcEduService01/xc-service-manage-course/target/
 xcEduService01/test-fastdfs/target/
 xcEduService01/xc-service-base-filesystem/target/
-*.iml
 .idea/
 xc-framework-parent/.idea/
 xcEduService01/xc-govern-center/target/
+*.iml
+
+xc-ui-pc-sysmanage/node_modules/
+xc-ui-pc-sysmanage/dist/
+xc-ui-pc-teach/node_modules/
+xc-ui-pc-teach/dist/
+xc-ui-pc-static-portal/css/
+xc-ui-pc-static-portal/plugins/
+xc-ui-pc-static-portal/img/
